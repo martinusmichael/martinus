@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var LogoBtn: UIButton!
+    @IBOutlet weak var fontBtn: UIButton!
+    @IBOutlet weak var backgroundBtn: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+    
     }
 
 
