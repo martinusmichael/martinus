@@ -13,6 +13,9 @@
 		C5BF342B2414E969000F1F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BF34292414E969000F1F91 /* Main.storyboard */; };
 		C5BF342D2414E96A000F1F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BF342C2414E96A000F1F91 /* Assets.xcassets */; };
 		C5BF34302414E96A000F1F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BF342E2414E96A000F1F91 /* LaunchScreen.storyboard */; };
+		C5BF34382414E9F8000F1F91 /* LogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF34372414E9F8000F1F91 /* LogoViewController.swift */; };
+		C5BF343A2414EA05000F1F91 /* FontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF34392414EA05000F1F91 /* FontViewController.swift */; };
+		C5BF343C2414EA0F000F1F91 /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF343B2414EA0F000F1F91 /* BackgroundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C5BF342C2414E96A000F1F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5BF342F2414E96A000F1F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5BF34312414E96B000F1F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BF34372414E9F8000F1F91 /* LogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoViewController.swift; sourceTree = "<group>"; };
+		C5BF34392414EA05000F1F91 /* FontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontViewController.swift; sourceTree = "<group>"; };
+		C5BF343B2414EA0F000F1F91 /* BackgroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				C5BF34252414E969000F1F91 /* SceneDelegate.swift */,
 				C5BF34272414E969000F1F91 /* ViewController.swift */,
 				C5BF34292414E969000F1F91 /* Main.storyboard */,
+				C5BF343B2414EA0F000F1F91 /* BackgroundViewController.swift */,
+				C5BF34392414EA05000F1F91 /* FontViewController.swift */,
+				C5BF34372414E9F8000F1F91 /* LogoViewController.swift */,
 				C5BF342C2414E96A000F1F91 /* Assets.xcassets */,
 				C5BF342E2414E96A000F1F91 /* LaunchScreen.storyboard */,
 				C5BF34312414E96B000F1F91 /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BF343C2414EA0F000F1F91 /* BackgroundViewController.swift in Sources */,
 				C5BF34282414E969000F1F91 /* ViewController.swift in Sources */,
 				C5BF34242414E969000F1F91 /* AppDelegate.swift in Sources */,
 				C5BF34262414E969000F1F91 /* SceneDelegate.swift in Sources */,
+				C5BF343A2414EA05000F1F91 /* FontViewController.swift in Sources */,
+				C5BF34382414E9F8000F1F91 /* LogoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
